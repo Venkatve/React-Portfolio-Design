@@ -1,0 +1,28 @@
+.project{
+    width: 350px;
+    height: 180px;
+    margin: 15px;
+    transition: transform 100ms ease-in-out;
+    cursor: pointer;
+}
+.project>img{
+    width: 350px;
+    height: 180px;
+    
+}
+
+.project:hover{
+  background-color: orange;
+  color: white;
+  transform: scale(1.09);
+}
+.project__content{
+    padding: 20px;
+    
+}
+.project__content h4{
+    padding-bottom: 15px;
+}
+.project__content p{
+    font-size: 15px;
+}

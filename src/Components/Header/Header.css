@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora:wght@400;500;600;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Lora:wght@400;500;600;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.header{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 20000;
+}
+
+.header__left{
+    
+    flex:0.4;
+    
+}
+.header__left > h1{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+.header__left > h1 > span {
+    color: red;
+}
+
+.header__right{
+    
+    flex:0.6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header__right >a >h4{
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 200ms ease-in-out;
+    font-family: 'Crimson Text', serif;
+
+}
+.header__right >a >h4:hover{
+    transform: scale(1.2);
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: 'Crimson Text', serif;
+
+}
+.header__rightButton{
+    color: white;
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 3px;
+    align-items: center ;
+    justify-content: center;
+}

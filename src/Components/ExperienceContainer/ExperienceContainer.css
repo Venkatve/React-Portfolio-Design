@@ -1,0 +1,25 @@
+.experiencecontainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      flex-direction: column;
+      margin: 200px 0;
+}
+.experiencecontainer > h1{
+    padding-bottom: 20px;
+    
+}
+.experiencecontainer__info{
+    background: url("../../images/photo2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1000px;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    justify-content: space-evenly;
+}
